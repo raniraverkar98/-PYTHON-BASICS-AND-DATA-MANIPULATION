@@ -1,0 +1,22 @@
+import numpy as np
+#Additon
+a=10
+b=20
+c=np.add(a,b)
+print(c)
+
+#Substraction
+d=np.subtract(a,b)
+print(d)
+
+#Multiply
+e=np.multiply(a,b)
+print(e)
+
+#Divison
+f=np.divide(a,b)
+print(f)
+
+#Module
+g=np.mod(a,b)
+print(g)

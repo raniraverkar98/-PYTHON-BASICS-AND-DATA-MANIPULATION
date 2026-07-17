@@ -1,0 +1,12 @@
+import pandas as pd 
+import numpy as np
+Data= { "Name":["Alice","bob","Charlie","rock"],
+        "Age":[23,np.nan,21,24],
+        "Roll no":[1,2,3,4]      
+}
+ 
+df= pd.DataFrame(Data)
+df["Name"]=df["Name"].str.strip
+df["Age"]=df["Age"].fillna(df["Age"].mean())
+
+print(Data)
